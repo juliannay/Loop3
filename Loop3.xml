@@ -1,24 +1,24 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
-  <block type="controls_repeat" id="25" inline="true" x="154" y="98">
+  <block type="controls_repeat" id="1" inline="true" x="154" y="98">
     <value name="TIMES">
-      <block type="math_number" id="38">
+      <block type="math_number" id="2">
         <field name="NUM">4</field>
       </block>
     </value>
     <statement name="DO">
-      <block type="oled_cleardisplay" id="181">
+      <block type="oled_cleardisplay" id="3">
         <next>
-          <block type="movement_forward" id="171">
+          <block type="movement_forward" id="4">
             <next>
-              <block type="multimedia_playwav" id="137">
+              <block type="multimedia_playwav" id="5">
                 <field name="WAV">_Snd Test.w</field>
                 <next>
-                  <block type="movement_forward" id="172">
+                  <block type="movement_forward" id="6">
                     <next>
-                      <block type="multimedia_playwav" id="138">
+                      <block type="multimedia_playwav" id="7">
                         <field name="WAV">_SndTest.w</field>
                         <next>
-                          <block type="multimedia_playwav" id="139">
+                          <block type="multimedia_playwav" id="8">
                             <field name="WAV">_SndTest.w</field>
                           </block>
                         </next>
@@ -33,7 +33,7 @@
       </block>
     </statement>
     <next>
-      <block type="movement_stop" id="149"></block>
+      <block type="movement_stop" id="9"></block>
     </next>
   </block>
 </xml>
