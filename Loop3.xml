@@ -6,14 +6,22 @@
       </block>
     </value>
     <statement name="DO">
-      <block type="multimedia_playwav" id="137">
-        <field name="WAV">_start.w</field>
+      <block type="movement_forward" id="171">
         <next>
-          <block type="multimedia_playwav" id="138">
-            <field name="WAV">_start.w</field>
+          <block type="multimedia_playwav" id="137">
+            <field name="WAV">_Snd Test.w</field>
             <next>
-              <block type="multimedia_playwav" id="139">
-                <field name="WAV">_start.w</field>
+              <block type="movement_forward" id="172">
+                <next>
+                  <block type="multimedia_playwav" id="138">
+                    <field name="WAV">_SndTest.w</field>
+                    <next>
+                      <block type="multimedia_playwav" id="139">
+                        <field name="WAV">_SndTest.w</field>
+                      </block>
+                    </next>
+                  </block>
+                </next>
               </block>
             </next>
           </block>
