@@ -11,7 +11,7 @@
           <block type="movement_forward" id="6">
             <next>
               <block type="multimedia_playwav" id="5">
-                <field name="WAV">_Snd Test.w</field>
+                <field name="WAV">_SndTest.w</field>
               </block>
             </next>
           </block>
