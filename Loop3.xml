@@ -24,18 +24,4 @@
       <block type="movement_stop" id="149"></block>
     </next>
   </block>
-  <block type="movement_forward" id="76" x="407" y="208">
-    <next>
-      <block type="robot_delay" id="78" inline="true">
-        <value name="DELAY">
-          <block type="math_number" id="85">
-            <field name="NUM">4000</field>
-          </block>
-        </value>
-        <next>
-          <block type="movement_stutter" id="116"></block>
-        </next>
-      </block>
-    </next>
-  </block>
 </xml>
