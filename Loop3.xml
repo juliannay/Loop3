@@ -8,27 +8,18 @@
     <statement name="DO">
       <block type="movement_forward" id="4">
         <next>
-          <block type="movement_forward" id="6"></block>
-        </next>
-      </block>
-    </statement>
-    <next>
-      <block type="multimedia_playwav" id="8">
-        <field name="WAV">_SndTest.w</field>
-        <next>
-          <block type="multimedia_playwav" id="7">
-            <field name="WAV">_SndTest.w</field>
+          <block type="movement_forward" id="6">
             <next>
               <block type="multimedia_playwav" id="5">
                 <field name="WAV">_Snd Test.w</field>
-                <next>
-                  <block type="movement_stop" id="9"></block>
-                </next>
               </block>
             </next>
           </block>
         </next>
       </block>
+    </statement>
+    <next>
+      <block type="movement_stop" id="9"></block>
     </next>
   </block>
 </xml>
