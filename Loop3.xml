@@ -6,22 +6,24 @@
       </block>
     </value>
     <statement name="DO">
-      <block type="multimedia_playwav" id="137">
-        <field name="WAV">_start.w</field>
+      <block type="movement_forward" id="76">
         <next>
-          <block type="multimedia_playwav" id="138">
-            <field name="WAV">_start.w</field>
+          <block type="robot_delay" id="78" inline="true">
+            <value name="DELAY">
+              <block type="math_number" id="85">
+                <field name="NUM">4000</field>
+              </block>
+            </value>
             <next>
-              <block type="multimedia_playwav" id="139">
-                <field name="WAV">_start.w</field>
+              <block type="movement_stutter" id="116">
                 <next>
-                  <block type="multimedia_playwav" id="150">
+                  <block type="multimedia_playwav" id="137">
                     <field name="WAV">_start.w</field>
                     <next>
-                      <block type="multimedia_playwav" id="151">
+                      <block type="multimedia_playwav" id="138">
                         <field name="WAV">_start.w</field>
                         <next>
-                          <block type="multimedia_playwav" id="152">
+                          <block type="multimedia_playwav" id="139">
                             <field name="WAV">_start.w</field>
                           </block>
                         </next>
@@ -35,20 +37,8 @@
         </next>
       </block>
     </statement>
-  </block>
-  <block type="movement_forward" id="76" x="410" y="168">
     <next>
-      <block type="robot_delay" id="78" inline="true">
-        <value name="DELAY">
-          <block type="math_number" id="85">
-            <field name="NUM">4000</field>
-          </block>
-        </value>
-        <next>
-          <block type="movement_stutter" id="116"></block>
-        </next>
-      </block>
+      <block type="movement_stop" id="149"></block>
     </next>
   </block>
-  <block type="movement_stop" id="149" x="-16" y="217"></block>
 </xml>
