@@ -6,13 +6,9 @@
       </block>
     </value>
     <statement name="DO">
-      <block type="oled_cleardisplay" id="3">
+      <block type="movement_forward" id="4">
         <next>
-          <block type="movement_forward" id="4">
-            <next>
-              <block type="movement_forward" id="6"></block>
-            </next>
-          </block>
+          <block type="movement_forward" id="6"></block>
         </next>
       </block>
     </statement>
